@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+input{
+    height: 45px;
+    width:  100%;
+    font-size: 14px;
+    line-height: 16px;
+    color: #3B5983;
+    border: 2px solid #FCC400;
+    border-radius: 5px;
+    padding-left: 25px;
+}
+input:focus{
+    outline: none;
+    border: 2px solid #FCC400;
+}
+main{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.register-form-container{
+    position: relative;
+    z-index: 2;
+    max-width: 415px;
+    width: 100%;
+    background: #000000;
+    border-radius: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 38px;
+    padding-top: 38px;
+    text-align: center;
+}
+.form-title{
+    color: #FCC400;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    margin-bottom: 38px;
+}
+.form-field{
+    margin-bottom: 13px;
+}
+.button{
+    font-weight: bold;
+    font-size: 14px;
+    display: block;
+    height: 45px;
+    width: 100%;
+    background: #FCC400;
+    border-radius: 5px;
+    border: 0px;
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 45px;
+    cursor: pointer;
+}
+.button:hover {
+    background-color: #FFD540 ;
+}
+a.button{
+    text-decoration: none;
+}
+.button-google{
+color: #C6CFDC;
+background: #F2F6FF;
+}
+.button-google:hover{
+    background: #E2E6F0;
+    color: #fff;
+}
+.divider{
+   font-weight: 500;
+   font-size: 12px;
+   line-height: 14px; 
+   color: #405D87;
+   text-align: center;
+   padding-top: 25px;
+   padding-bottom: 25px;
+}
+
+.toRegistOrLog{
+	text-decoration: none;
+	color: white;
+	
+}
